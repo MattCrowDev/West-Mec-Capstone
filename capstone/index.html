@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open World Interactive</title>
+    <link rel="SHORTCUT ICON" href="images/logo.png" type="image/x-icon" />
+    <link rel="ICON" href="images/logo.png" type="image/ico" />
+    <!--bootstrap and custom css links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <!--================================================================================HEADER================================================================================-->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Company logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/learn.html" >Learn</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" aria-current="page" href="pages/contact.html">Contact us</a>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!--================================================================================MAIN CONTENT================================================================================-->
+    <main>
+        <!--carousel -->
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#myCarousel" data-bs-slide-to="0" class=""></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="1" class=""></li>
+                <li data-bs-target="#myCarousel" data-bs-slide-to="2" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img class="carousel-image" src="images/carousel1.jpg" alt="Example Game Photo">
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Extremely powerfull</h1>
+                            <p>The OWI game development engine is able to take simple inputs and make your wildist dreams come to life! The OWI engine will save you many hours of asset creation allowing you to focus more on other elements of game design!</p>
+                            <p><a class="btn btn-lg btn-primary" href="index.html" role="button">See how</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-image" src="images/carousel2.jpg" alt="Example Game Photo">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Highly affordable</h1>
+                            <p>Pricing starts at... free! For the basic fature set you have no monthly cost, just a small fee whenever you wish to export your assets. For more advanced features and a smoother workfow we have affordable flexable pricing!</p>
+                            <p><a class="btn btn-lg btn-primary" href="pages/pricing.html" role="button">View pricing</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img class="carousel-image" src="images/carousel3.jpg" alt="Example Game Photo">
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>Easy to learn</h1>
+                            <p>While the OWI engine is extreemly powerfull it is also extreemly easy to learn. Our team has provided an endless ammount of nice organized documentation along with a video series to help ypu get started using the engine, no matter if youre a pro or this is your first time in game development, anyone can learn the IWO engine</p>
+                            <p><a class="btn btn-lg btn-primary" href="pages/learn.html" role="button">Start learning</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+
+        <!-- Marketing messaging and featurettes-->
+        <div class="container marketing">
+            <!--Three featured creations/creators-->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="Profile-picture" src="images/brock-lee.jpg" alt="Brock Lee pfp">
+                    <h2>Brock Lee</h2>
+                    <p>"The OWI engine has been a powerfull tool in helping me get into creating large filled games without spenmding years creating individual assets. Amazing tecnology i would reccomend to anyone whos interested!!!"</p>    
+                </div>
+
+                <div class="col-lg-4">
+                    <img class="Profile-picture" src="images/epoch-logo.png" alt="Epoch Games logo">
+                    <h2>Epoch Games</h2>
+                    <p>"When Epoch games started we were using 20+ tools to try and streamline the asset creation side of our ongoing game, now the OWI engine has replaced over half of the tools we relyd on earlier, its a wonderfull product for everyone, beginer to pro"</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <img class="Profile-picture" src="images/luke-warm.jpg" alt="Luke Warm pfp">
+                    <h2>Luke Warm</h2>
+                    <p>"When i started working in game development creating assets and terrain for games took up so much time, now with the OWI engine it takes much less. This allowes me to focus on creating more interesting gameplay elements!"</p>
+                </div>
+            </div>
+            <!-- START THE FEATURETTES -->
+            <!--FEATURETTE #1-->
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Driven By Computers... <span> Optimized For Humans!</span></h2>
+                    <p class="lead">The OWI engine uses powerful machine learning algorithms to procude high quality results, this tecnology in the past has been exclusive to only people who have studied these fields for years, but now the OWI engine brings it to the masses!</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-fluid mx-auto" src="images/featurebox1.jpg" alt="feature image">                
+                </div>
+            </div>
+            <!--FEATURETTE #2-->
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Customizeable interface <span>Faster Workflow</span></h2>
+                    <p class="lead">We wont pretend we know the best workflow for you, its very personal how somone sets up their workflow. Thats why almost every feature of the OWI editor is customizeable, from tool locations, down to the color of your font, how you want it is how you got it. </p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img class="featurette-image img-fluid mx-auto" src="images/featurebox2.jpg" alt="feature image">
+                </div>
+            </div>
+            <!--FEATURETTE #2-->
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Develop For Anything. <span>Even Other Engines.</span></h2>
+                    <p class="lead">Your workflow is yours, and you need flexability. the OWI engine can run on any modern platform and assets generated using our tools can be safely exported into many file formats that are readable by othe engines and tools.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-fluid mx-auto" src="images/featurebox3.jpg" alt="feature image">            
+                </div>
+            </div>
+            <!--Additinal spacer-->
+            <hr class="featurette-divider">
+        </div>
+    
+    
+      <!--================================================================================FOOTER================================================================================-->
+      <footer class="container">
+        <a class=" float-end btn btn-lg btn-primary" href="#" role="button">Back to top</a>
+        <p>©2021-2025 Open World Interactive
+      </footer>
+    </main>
+    
+    <!--bootstrap js links-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    </body>
+</html>
